@@ -1,0 +1,35 @@
+[
+    {
+        "expected_columns": [
+            "IPK",
+            "Jumlah_Absensi",
+            "Waktu_Belajar_Jam",
+            "Rasio_Absensi",
+            "IPK_x_Study"
+        ],
+        "prediction": 1,
+        "probability": 0.58
+    },
+    {
+        "expected_columns": [
+            "IPK",
+            "Jumlah_Absensi",
+            "Waktu_Belajar_Jam",
+            "Rasio_Absensi",
+            "IPK_x_Study"
+        ],
+        "prediction": 0,
+        "probability": 0.02
+    },
+    {
+        "expected_columns": [
+            "IPK",
+            "Jumlah_Absensi",
+            "Waktu_Belajar_Jam",
+            "Rasio_Absensi",
+            "IPK_x_Study"
+        ],
+        "prediction": 1,
+        "probability": 0.58
+    }
+]

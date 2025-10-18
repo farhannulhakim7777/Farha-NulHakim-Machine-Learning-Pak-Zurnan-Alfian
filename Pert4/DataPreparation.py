@@ -5,7 +5,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 # --- Langkah 1: Baca dan siapkan data ---
-df = pd.read_csv("kelulusan_mahasiswa.csv")
+df = pd.read_csv("../dataset/kelulusan_mahasiswa.csv")
 df = df.drop_duplicates()
 
 # Buat fitur baru

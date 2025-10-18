@@ -37,7 +37,7 @@ check_environment()
 
 # === Langkah 1: Muat dan Split Data ===
 try:
-    df = pd.read_csv("processed_kelulusan.csv")
+    df = pd.read_csv("../dataset/processed_kelulusan.csv")
     print("Data dimuat berhasil.")
 except FileNotFoundError:
     print("Error: File 'processed_kelulusan.csv' tidak ditemukan.")

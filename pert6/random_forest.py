@@ -16,7 +16,7 @@ from sklearn.metrics import f1_score, confusion_matrix, roc_auc_score, roc_curve
 import joblib
 
 # ====== Langkah 1: Muat Data ======
-df = pd.read_csv("processed_kelulusan.csv")
+df = pd.read_csv("../dataset/processed_kelulusan.csv")
 X = df.drop("Lulus", axis=1)
 y = df["Lulus"]
 

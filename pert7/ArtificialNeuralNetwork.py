@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 # Memuat data
-df = pd.read_csv("processed_kelulusan.csv")
+df = pd.read_csv("../dataset/processed_kelulusan.csv")
 X = df.drop("Lulus", axis=1)
 y = df["Lulus"]
 
